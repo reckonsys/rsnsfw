@@ -1,3 +1,5 @@
+#! /bin/bash
+
 set -xeuo pipefail
 
 BUMP_VERSION=$1
