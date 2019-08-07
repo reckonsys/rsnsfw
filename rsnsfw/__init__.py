@@ -9,7 +9,8 @@ import tensorflow as tf
 
 
 _MODEL_DIR = os.path.join(
-    os.path.abspath(os.path.dirname(__file__)), 'data/models/1547856517')
+    os.path.abspath(os.path.dirname(__file__)),
+    'rsnsfw/data/models/1547856517')
 
 _IMAGE_SIZE = 64
 _BATCH_SIZE = 128
