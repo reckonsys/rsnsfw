@@ -1,2 +1,27 @@
-tensorflow
-requests
+-i https://pypi.org/simple
+-e .
+absl-py==0.7.1
+astor==0.8.0
+certifi==2019.6.16
+chardet==3.0.4
+gast==0.2.2
+google-pasta==0.1.7
+grpcio==1.22.0
+h5py==2.9.0
+idna==2.8
+keras-applications==1.0.8
+keras-preprocessing==1.1.0
+markdown==3.1.1
+numpy==1.17.0
+pillow==6.1.0
+protobuf==3.9.1
+requests==2.22.0
+six==1.12.0
+tensorboard==1.14.0
+tensorflow-estimator==1.14.0
+tensorflow==1.14.0
+termcolor==1.1.0
+urllib3==1.25.3
+werkzeug==0.15.5
+wheel==0.33.4 ; python_version >= '3'
+wrapt==1.11.2

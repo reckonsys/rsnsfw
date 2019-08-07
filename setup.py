@@ -25,6 +25,6 @@ setup(
     keywords='reckonsys nsfw',
     packages=find_packages(),
     install_requires=[
-        'tensorflow',
+        'tensorflow', 'pillow'
     ],
 )
