@@ -2,11 +2,11 @@
 
 set -xeuo pipefail
 
-BUMP_VERSION=$1
-if [ "$BUMP_VERSION" = "" ]
-then
-    BUMP_VERSION="patch"
-fi
+# BUMP_VERSION=$1
+# if [ "$BUMP_VERSION" = "" ]
+# then
+BUMP_VERSION="patch"
+# fi
 
 bumpversion $BUMP_VERSION
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
